@@ -1,5 +1,5 @@
   /*
-	* HAI NAMAKU NAYLA
+	* HAI NAMAKU NURDIN
 	* YAH DISINI AKU SEBAGAI PEMULA 
 	* MAU MENCOBA MEMBUAT BOT SENDIRI
 	* YANG PASTINYA PASTI BANYAK YG
@@ -8,11 +8,11 @@
   */
  const petik = '```'
  const nmr = '+'
-const helpmenu = (wit,wita,wib,tampilTanggal, UserZeeone, tampilHari , limitawal, role, premi, sender, botname,pushname, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model ) => {
+const helpmenu = (wit,wita,wib,tampilTanggal, UseNurdinn, tampilHari , limitawal, role, premi, sender, botname,pushname, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model ) => {
 	return`╭─❒ *INFO BOT* 
 │❒ ${petik}𝖭𝖺𝗆𝖺 : ${botname}${petik}
-│❒ ${petik}Author : Nayla${petik}
-│❒ ${petik}Recode : Zeeone${petik}
+│❒ ${petik}Author : Nurdin${petik}
+│❒ ${petik}Recode : Nuurdin${petik}
 │❒ ${petik}Server : Baileys${petik}
 │❒ ${petik}RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB${petik}
 │❒ ${petik}MCC : ${mcc}${petik}
@@ -859,7 +859,7 @@ ${petik}└❏ ${UserZeeone.length} users${petik}
 `
 }
 
-const promenu = (boton, wit,wita,wib,kyun,tampilHarii, tampilTanggal, totalchat, UserZeeone, ucapannya, tampilWaktu , hitbot, speedbotz, sender, ownername,pushname, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, giid) => {
+const promenu = (boton, wit,wita,wib,kyun,tampilHarii, tampilTanggal, totalchat, UserNurdin, ucapannya, tampilWaktu , hitbot, speedbotz, sender, ownername,NurdinOfc, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, giid) => {
 	return`┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${wib}
 │◦➛ WITA : ${wita}
@@ -881,7 +881,7 @@ ${petik}│◦➛Whatsapp : ${wa_version}
 └❏  MNC : ${mnc}${petik}
 
 ┌─❑「 *BOT INFO* 」
-${petik}│◦➛Owner : ${ownername}
+${petik}│◦➛Owner : $NurdinOfc}
 │◦➛Prefix : ${prefix}
 │◦➛Total Hit : ${hitbot}
 │◦➛Group Chat : ${giid.length}
@@ -891,7 +891,7 @@ ${petik}│◦➛Owner : ${ownername}
 │◦➛Version : 3.5.2${petik}
 ${petik}│◦➛Speed : ${speedbotz.toFixed(4)} Second${petik} 
 ${petik}│◦➛Runtime : ${kyun(boton)}${petik}
-${petik}└❏ ${UserZeeone.length} users${petik}
+${petik}└❏ ${UserNurdin.length} users${petik}
 
 
 ╭─❒ *PRO MENU*
@@ -933,7 +933,7 @@ ${petik}│◦➛Whatsapp : ${wa_version}
 └❏  MNC : ${mnc}${petik}
 
 ┌─❑「 *BOT INFO* 」
-${petik}│◦➛Owner : ${ownername}
+${petik}│◦➛Owner : ${NurdinOfc}
 │◦➛Prefix : ${prefix}
 │◦➛Total Hit : ${hitbot}
 │◦➛Group Chat : ${giid.length}
@@ -979,7 +979,7 @@ ${petik}└❏ ${UserZeeone.length} users${petik}
 `
 }
 
-const soundmenu = (boton, wit,wita,wib,kyun,tampilHarii, tampilTanggal, totalchat, UserZeeone, ucapannya, tampilWaktu , hitbot, speedbotz, sender, ownername,pushname, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, giid) => {
+const soundmenu = (boton, wit,wita,wib,kyun,tampilHarii, tampilTanggal, totalchat, UserZeeone, ucapannya, tampilWaktu , hitbot, speedbotz, sender, ownername,NurdinOfc, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, giid) => {
 	return`┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${wib}
 │◦➛ WITA : ${wita}
@@ -1001,7 +1001,7 @@ ${petik}│◦➛Whatsapp : ${wa_version}
 └❏  MNC : ${mnc}${petik}
 
 ┌─❑「 *BOT INFO* 」
-${petik}│◦➛Owner : ${ownername}
+${petik}│◦➛Owner : ${NurdinOfc}
 │◦➛Prefix : ${prefix}
 │◦➛Total Hit : ${hitbot}
 │◦➛Group Chat : ${giid.length}
