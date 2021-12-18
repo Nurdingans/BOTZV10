@@ -1,5 +1,5 @@
   /*
-	* HAI NAMAKU NAYLA
+	* HAI NAMAKU NURDIN
 	* YAH DISINI AKU SEBAGAI PEMULA 
 	* MAU MENCOBA MEMBUAT BOT SENDIRI
 	* YANG PASTINYA PASTI BANYAK YG
@@ -436,7 +436,7 @@ https://api-alphabot.herokuapp.com
 
 exports.menuZ = (ownername, auth0r, bulan, tchat, tz, prefix) => {
 	return`╭──❲  WHATSAPP  ❳
-▢ OWNER : ${ownername} 
+▢ OWNER : ${NurdinOfc} 
 ▢ AUTHOR : ${auth0r} 
 ▢ BULAN : ${bulan} 
 ▢ CHAT : ${tchat} 
@@ -479,7 +479,7 @@ exports.menuZ = (ownername, auth0r, bulan, tchat, tz, prefix) => {
 ▢ RYNZ 
 ▢ LOLI KILLERS 
 ▢ ARA-ARA 
-╰──❲  BY ${ownername}  ❳`
+╰──❲  BY ${NurdinOfc}  ❳`
 }
 exports.botx = (prefix) => {
 	return`[❗] MODE BOTX TIDAK AKTIF\nKETIK *${prefix}botx*\nUNTUK MENGAKTIFKAN`
@@ -531,8 +531,8 @@ exports.lvlnul = () => {
 }
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`╭──❲  NAIK LEVEL  ❳
-▢ Nama : ${pushname} 
-▢ wa.me/${sender.split("@")[0]} 
+▢ Nama : ${NurdinOfc} 
+▢ wa.me/${085798328466("@")[0]} 
 ▢ Xp : ${getLevelingXp(sender)} 
 ▢ Limit : +3  
 ▢ Level : ${getLevel} ⊱ ${getLevelingLevel(sender)} 
@@ -541,7 +541,7 @@ exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel)
 exports.allmenu = (auth0r, bulan, tchat, prefix) => {
 	return`━━ ❲ *BOT WHATSAPP* ❳ ━━
   
-▢ OWNER : ${ownername} 
+▢ OWNER : ${NurdinOfc} 
 ▢ AUTHOR : ${auth0r} 
 ▢ BULAN : ${bulan} 
 ▢ CHAT : ${tchat} 
@@ -928,11 +928,11 @@ exports.allmenu = (auth0r, bulan, tchat, prefix) => {
   
 *THX TO*  
 ▢ ALL CREATOR BOT 
-▢ NAYLACHAN 
-▢ RYNZ 
+▢ NurdinOfc 
+▢ FZR 
 ▢ LOLI KILLERS 
 ▢ ARA-ARA
-▢ ZEEONE
+▢ NURDIN
 
 ━━ ❲ *BOT WHATSAPP* ❳ ━━
 `
