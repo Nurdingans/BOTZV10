@@ -10,7 +10,7 @@
  const nmr = '+'
 const helpmenu = (wit,wita,wib,tampilTanggal, UseNurdinn, tampilHari , limitawal, role, premi, sender, botname,pushname, prefix, wa_version, mcc, mnc, os_version, device_manufacturer, device_model ) => {
 	return`╭─❒ *INFO BOT* 
-│❒ ${petik}𝖭𝖺𝗆𝖺 : ${botname}${petik}
+│❒ ${petik}𝖭𝖺𝗆𝖺 : ${NURDINBOTZZ}${petik}
 │❒ ${petik}Author : Nurdin${petik}
 │❒ ${petik}Recode : Nuurdin${petik}
 │❒ ${petik}Server : Baileys${petik}
